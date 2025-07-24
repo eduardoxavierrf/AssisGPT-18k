@@ -21,7 +21,7 @@ def generate_text_streaming(model, tokenizer, prompt, max_new_tokens=100):
   print()
 
 
-model = Model.load("models/2025-07-21_22-41-02")
+model = Model.load("models/2025-07-20_10-38-57")
 
 prompt = "Uma noite destas, vindo da cidade para o Engenho Novo, encontrei"
 generate_text_streaming(model, tokenizer, prompt, max_new_tokens=422)
